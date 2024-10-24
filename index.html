@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>nsbebing Web</title>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <!-- Navigation -->
+
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a  href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="join_us.html">Join Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+         <!-- Home -->
+
+         <section id="home">
+            <h2>National Society of Black Engineers</h2>
+            <p>
+                We envision a world where engineering is widely recognized in communities of color,<br> 
+                and Black students see themselves as engineers, excelling in education and professional success.
+            </p>
+            <a class="btn" href="#">Get More Involved</a>
+
+         </section>
+       
+         <!--About-Container-->
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/CLG_IMG.png" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>Our Job is to inrease Excellence umong young black engineers</h2>
+            <p>
+                Welcome to the Binghamton University Chapter of Black Engineers. We strive to increase the number of culturally responsible Black 
+                engineers who excel academically, succeed professionally, and positively
+                 impact the communities.
+            </p>
+            <div class="about-fe">
+                <img src="images/businessman-in-suit-head-vector-icon.jpg" alt="">
+                <div class="fe-text">
+                    <h5> Professional</h5>
+                    <p>We help our members become more proffetional</p>
+                </div>
+            </div>
+
+            <div class="about-fe">
+                <img src="images/pngtree-engineering-icon-png-image_428266.jpg" alt="">
+                <div class="fe-text">
+                    <h5> Technical</h5>
+                    <p>We help improve the technical skills of our members through workshops and projects</p>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+
+         <!--Call To Action-->
+    <section class="cta">
+        <h1>Get More Involved With <br>The National Society of Black Engineers</h1>
+        <a class="btn" href="#">Get More Involved</a>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>Home</li>
+            <li>About</li>
+            <li>Join us</li>
+            <li>Contact</li>
+        </div>
+
+        <div>
+            <h3>Resources</h3>
+            <li>Resources</li>
+            <li>Eboard</li>
+            <li>National website</li>
+        </div>
+        <div class="footer-col">
+            <h3>Get in touch</h3>
+            <li>nsbe@binghamtonsa.org</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter keep up to date with NSBE</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="btn">SUBSCRIBE</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script>
+    $('menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function() {
+        $('nav .navigation ul').removeClass('active')
+    });
+</script>
+
+
+    </body>
+
+
+</html>
