@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NSBE Events - Binghamton Chapter</title>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            /* Additional styles for events page */
+            .events-container {
+                padding: 8vw;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                justify-content: center;
+            }
+
+            .event-card {
+                background: #F9F9FF;
+                border-radius: 15px;
+                padding: 30px;
+                width: 300px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                transition: 0.3s ease;
+            }
+
+            .event-card:hover {
+                box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+            }
+
+            .event-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .event-date {
+                color: #686868;
+                font-size: 0.9rem;
+                padding: 10px 0;
+            }
+
+            .event-title {
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: #293038;
+                padding: 10px 0;
+            }
+
+            .event-description {
+                color: #686868;
+                margin: 10px 0;
+            }
+
+            .featured-event {
+                width: 100%;
+                max-width: 950px;
+                display: flex;
+                gap: 30px;
+                margin-bottom: 30px;
+                background: #4a90e2;
+                color: white;
+                padding: 40px;
+                border-radius: 20px;
+            }
+
+            .featured-event img {
+                width: 40%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .featured-event-content {
+                flex: 1;
+            }
+
+            .featured-event-content h3 {
+                font-size: 2rem;
+                margin-bottom: 15px;
+            }
+
+            .featured-event-content p {
+                margin-bottom: 20px;
+            }
+
+            .upcoming-events-title {
+                text-align: center;
+                margin: 40px 0;
+                font-size: 2.2rem;
+                color: #293038;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="events.html">Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="join_us.html">Join Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Events Header -->
+        <section id="home">
+            <h2>NSBE Events</h2>
+            <p>Stay connected with our community through professional development,<br>
+               technical workshops, and networking opportunities.</p>
+        </section>
+
+        <!-- Featured Event -->
+        <div class="events-container">
+            <div class="featured-event">
+                <img src="images/featured-event.jpg" alt="Annual Conference">
+                <div class="featured-event-content">
+                    <h3>NSBE 50th Annual Convention</h3>
+                    <p class="event-date">March 20-24, 2024</p>
+                    <p>Join us at the NSBE 50th Annual Convention in Atlanta, GA! This milestone event brings together thousands of Black engineers, professionals, and students for workshops, career fairs, and networking opportunities.</p>
+                    <a href="#" class="btn">Register Now</a>
+                </div>
+            </div>
+
+            <h2 class="upcoming-events-title">Upcoming Events</h2>
+
+            <div class="event-card">
+                <img src="images/workshop.jpg" alt="Technical Workshop">
+                <p class="event-date">December 5, 2024</p>
+                <h3 class="event-title">Technical Interview Prep Workshop</h3>
+                <p class="event-description">Learn essential technical interview skills and practice with peer mock interviews. Industry professionals will share their experiences and tips.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="event-card">
+                <img src="images/networking.jpg" alt="Networking Event">
+                <p class="event-date">December 12, 2024</p>
+                <h3 class="event-title">Industry Networking Night</h3>
+                <p class="event-description">Connect with professionals from leading tech companies and learn about internship and full-time opportunities.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="event-card">
+                <img src="images/hackathon.jpg" alt="Hackathon">
+                <p class="event-date">January 15, 2025</p>
+                <h3 class="event-title">Winter Hackathon</h3>
+                <p class="event-description">Join us for a 24-hour hackathon where you'll work in teams to solve real-world engineering challenges.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Call To Action -->
+        <section class="cta">
+            <h1>Want to propose or sponsor an event?<br>Get in touch with us!</h1>
+            <a class="btn" href="contact.html">Contact Us</a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Quick links</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Join us</li>
+                <li>Contact</li>
+            </div>
+
+            <div>
+                <h3>Resources</h3>
+                <li>Resources</li>
+                <li>Eboard</li>
+                <li>National website</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Get in touch</h3>
+                <li>nsbe@binghamtonsa.org</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter to keep up to date with NSBE at Binghamton University</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="btn">SUBSCRIBE</a>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function() {
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+    </body>
+</html>
