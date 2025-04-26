@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NSBE Sponsors - Binghamton Chapter</title>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            /* Styles for sponsors page */
+            .sponsors-container {
+                padding: 8vw;
+                text-align: center;
+            }
+
+            .sponsors-intro {
+                max-width: 800px;
+                margin: 0 auto 60px auto;
+            }
+
+            .sponsors-intro h2 {
+                font-size: 2.2rem;
+                color: #293038;
+                margin-bottom: 20px;
+            }
+
+            .sponsors-intro p {
+                color: #686868;
+                line-height: 1.6;
+            }
+
+            .sponsor-tier {
+                margin-bottom: 80px;
+            }
+
+            .tier-title {
+                font-size: 1.8rem;
+                color: #293038;
+                margin-bottom: 30px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .tier-title:after {
+                content: "";
+                position: absolute;
+                width: 50%;
+                height: 3px;
+                background: #4a90e2;
+                bottom: -10px;
+                left: 25%;
+            }
+
+            .sponsor-cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 40px;
+                margin-top: 40px;
+            }
+
+            .sponsor-card {
+                background: #F9F9FF;
+                border-radius: 15px;
+                padding: 40px;
+                width: 350px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                transition: 0.3s ease;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .sponsor-card:hover {
+                box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+                transform: translateY(-5px);
+            }
+
+            .sponsor-card img {
+                max-width: 80%;
+                height: 120px;
+                object-fit: contain;
+                margin-bottom: 25px;
+            }
+
+            .sponsor-description {
+                color: #686868;
+                margin: 15px 0;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .sponsor-btn {
+                margin-top: 20px;
+            }
+
+            .become-sponsor {
+                background: #f5f7fa;
+                padding: 60px 40px;
+                border-radius: 20px;
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            .become-sponsor h3 {
+                font-size: 1.8rem;
+                color: #293038;
+                margin-bottom: 20px;
+            }
+
+            .become-sponsor p {
+                color: #686868;
+                max-width: 800px;
+                margin: 0 auto 30px auto;
+                line-height: 1.6;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="join_us.html">Join Us</a></li>
+                    <li><a class="active" href="sponsors.html">Sponsors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Sponsors Header -->
+        <section id="home">
+            <h2>Our Sponsors</h2>
+            <p>We are grateful for the support from our industry partners<br>
+               who help make our mission possible.</p>
+        </section>
+
+        <!-- Sponsors Content -->
+        <div class="sponsors-container">
+            <div class="sponsors-intro">
+                <h2>Thank You to Our Supporters</h2>
+                <p>The National Society of Black Engineers Binghamton Chapter thrives thanks to the generous support of our corporate sponsors. These partnerships enable us to provide professional development opportunities, technical workshops, and community outreach programs that empower our members to excel in their engineering careers.</p>
+            </div>
+
+            <div class="sponsor-tier">
+                <h3 class="tier-title">Platinum Sponsors</h3>
+                <div class="sponsor-cards">
+                    <div class="sponsor-card">
+                        <img src="images/bloomberg.png" alt="Bloomberg LP Logo">
+                        <h3>Bloomberg LP</h3>
+                        <p class="sponsor-description">Bloomberg LP is a global leader in business and financial information, delivering trusted data, news, and insights that bring transparency, efficiency, and fairness to markets. The company helps connect influential communities across the global financial ecosystem via reliable technology solutions.</p>
+                        <a href="https://www.bloomberg.com/careers" class="btn sponsor-btn">Learn More</a>
+                    </div>
+
+                    <div class="sponsor-card">
+                        <img src="images/gf.png" alt="GlobalFoundries Logo">
+                        <h3>GlobalFoundries</h3>
+                        <p class="sponsor-description">GlobalFoundries is one of the world's leading semiconductor manufacturers, providing a unique mix of design, development, and fabrication services. Their innovative manufacturing processes and technologies enable customers to differentiate their products and solutions from the competition.</p>
+                        <a href="https://gf.com/careers" class="btn sponsor-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="become-sponsor">
+                <h3>Become a Sponsor</h3>
+                <p>Your organization can make a significant impact on the next generation of Black engineers. We offer various sponsorship packages that include recruitment opportunities, brand visibility, and engagement with our talented members. Partner with NSBE Binghamton to help build a diverse and inclusive future for engineering.</p>
+                <a href="contact.html" class="btn">Contact Us About Sponsorship</a>
+            </div>
+        </div>
+
+        <!-- Call To Action -->
+        <section class="cta">
+            <h1>Interested in supporting NSBE Binghamton?<br>We'd love to hear from you!</h1>
+            <a class="btn" href="contact.html">Get in Touch</a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Quick links</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Join us</li>
+                <li>Contact</li>
+            </div>
+
+            <div>
+                <h3>Resources</h3>
+                <li>Resources</li>
+                <li>Eboard</li>
+                <li>National website</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Get in touch</h3>
+                <li>nsbe@binghamtonsa.org</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter to keep up to date with NSBE at Binghamton University</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="btn">SUBSCRIBE</a>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function() {
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+    </body>
+</html>
